@@ -98,10 +98,11 @@ body {
 .header {
     width: 100%;
     height: 60px;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 99;
+    background-color: #F7B9C7;
 }
 
 .header .inner {
@@ -117,8 +118,12 @@ body {
 
 .header .top_menu {
     max-width: 500px;
+    height: 40px;
     padding-left: 15px;
     margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
 
 }
 
@@ -248,20 +253,25 @@ body {
 .new .inner .new_swiper .swiper-slide>img {
     width: 100%;
 }
+.new .inner .new_swiper .swiper-slide .item_wrap{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 
+}
 .new .inner .new_swiper .swiper-slide .text_wrap {
     margin-top: 9px;
     display: flex;
     flex-direction: column;
 }
 
-.new .inner .new_swiper .swiper-slide .text_wrap p {
+.new .inner .new_swiper .swiper-slide p {
     font-size: 16px;
+    margin-top: 9px;
 }
 
 .new .inner .new_swiper .swiper-slide .text_wrap span {
     font-size: 14px;
-    margin-top: 8px;
 }
 
 .new .inner .new_swiper .swiper-slide .text_wrap strong {
@@ -276,13 +286,9 @@ body {
 }
 
 .new .inner .new_swiper .swiper-slide .item_btn {
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    gap: 3px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
 }
 
 .best .inner {
@@ -308,25 +314,32 @@ body {
 
 .best .inner .list {
     margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
 }
 
 .best .inner .item {
+    width: 100%;
     display: flex;
     align-items: center;
 }
 
 .best .inner .item > img {
-    width: 23.54%;
+    width: 109px;
+    height: 109px;
 }
-.best .inner .item .text_wrap{
+.best .inner .item .info_wrap{
+    width: 100%;
     margin-left: 9px;
+}
+.best .inner .item .info_wrap .item_wrap{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.best .inner .item .info_wrap .item_wrap .text_wrap{
     display: flex;
     flex-direction: column;
-}
-.best .inner .item .text_wrap p{
-    font-size: 16px
-}
-.best .inner .item .text_wrap span{
-    font-size: 14px;
-    margin-top: 9px;
+    margin-top: 8px;
 }
