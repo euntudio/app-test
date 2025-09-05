@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 @font-face {
     font-family: 'Pretendard';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
@@ -189,7 +190,7 @@ body {
     margin-top: 10px;
 }
 
-.main_visual .inner .text_wrap p a{
+.main_visual .inner .text_wrap p a {
     width: 134px;
     height: 43px;
     font-size: 14px;
@@ -207,64 +208,125 @@ body {
     width: calc(100% - 30px);
     margin: 30px auto;
 }
-.new .inner .title{
+
+.new .inner .title {
     display: flex;
     justify-content: space-between;
 }
+
 .new .inner .title h2 {
     font-size: 22px;
 }
-.new .inner .title h2 p{
+
+.new .inner .title h2 p {
     margin-top: 9px;
     font-size: 16px;
     font-weight: normal;
 }
+
 .new .inner .title .more {
     font-size: 14px;
 }
-.new .inner .title .more a{
+
+.new .inner .title .more a {
     display: block;
 }
-.new .inner .new_swiper{
+
+.new .inner .new_swiper {
     margin-top: 20px;
 }
-.new .inner .new_swiper .swiper-wrapper{
+
+.new .inner .new_swiper .swiper-wrapper {
     width: 100%;
 }
-.new .inner .new_swiper .swiper-slide{
+
+.new .inner .new_swiper .swiper-slide {
     width: 48.69%;
     position: relative;
 }
-.new .inner .new_swiper .swiper-slide > img{
+
+.new .inner .new_swiper .swiper-slide>img {
     width: 100%;
 }
-.new .inner .new_swiper .swiper-slide .text_wrap{
+
+.new .inner .new_swiper .swiper-slide .text_wrap {
     margin-top: 9px;
     display: flex;
     flex-direction: column;
 }
-.new .inner .new_swiper .swiper-slide .text_wrap p{
+
+.new .inner .new_swiper .swiper-slide .text_wrap p {
     font-size: 16px;
 }
-.new .inner .new_swiper .swiper-slide .text_wrap span{
+
+.new .inner .new_swiper .swiper-slide .text_wrap span {
     font-size: 14px;
     margin-top: 8px;
 }
-.new .inner .new_swiper .swiper-slide .text_wrap strong{
+
+.new .inner .new_swiper .swiper-slide .text_wrap strong {
     font-size: 16px;
     margin-top: 4px;
     font-weight: bold;
 }
-.new .inner .new_swiper .swiper-slide .text_wrap strong span{
+
+.new .inner .new_swiper .swiper-slide .text_wrap strong span {
     font-size: 16px;
     font-weight: bold;
 }
-.new .inner .new_swiper .swiper-slide .item_btn{
+
+.new .inner .new_swiper .swiper-slide .item_btn {
     display: flex;
-    gap: 3px;
     align-items: center;
     justify-content: flex-end;
+    gap: 3px;
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.best .inner {
+    max-width: 500px;
+    width: calc(100% - 30px);
+    margin: 80px auto;
+}
+
+.best .inner .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.best .inner .title h2 {
+    font-size: 22px;
+}
+
+.best .inner .title h2 p {
+    margin-top: 9px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.best .inner .list {
+    margin-top: 20px;
+}
+
+.best .inner .item {
+    display: flex;
+    align-items: center;
+}
+
+.best .inner .item > img {
+    width: 23.54%;
+}
+.best .inner .item .text_wrap{
+    margin-left: 9px;
+    display: flex;
+    flex-direction: column;
+}
+.best .inner .item .text_wrap p{
+    font-size: 16px
+}
+.best .inner .item .text_wrap span{
+    font-size: 14px;
+    margin-top: 9px;
 }
