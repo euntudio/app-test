@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>어뮤즈</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        window.onload = () => {
+            var swiper = new Swiper(".menu_swiper", {
+                slidesPerView: 6,
+                spaceBetween: 4,
+                breakpoints: {
+                    400: {
+                        slidesPerView: 6,
+                        spaceBetween: 4,
+                    },
+                },
+            });
+            var swiper = new Swiper(".new_swiper", {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                breakpoints: {
+                    500: {
+                        slidesPerView: 2,
+                        spaceBetween: 9,
+                    },
+                },
+            });
+        };
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header class="header">
+            <div class="inner">
+                <h1 class="logo">
+                    <a href="#">
+                        <img src="img/logo.png" alt="로고">
+                    </a>
+                </h1><!-- .logo end -->
+
+                <div class="util">
+                    <div class="search">
+                        <a href="#">
+                            <img src="img/searh.png" alt="검색">
+                        </a>
+                    </div><!-- .search end -->
+                    <div class="cart">
+                        <a href="#"><img src="img/bag.png" alt="장바구니"></a>
+                    </div>
+                </div><!-- .util end -->
+            </div><!-- .inner end -->
+
+            <div class="top_menu">
+                <!-- Swiper -->
+                <div class="swiper menu_swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <a href="#">마이멜로디&쿠로미</a>
+                        </div><!-- .swiper-slide -->
+
+                        <div class="swiper-slide">
+                            <a href="#">홈</a>
+                        </div><!-- .swiper-slide -->
+
+                        <div class="swiper-slide">
+                            <a href="#">NEW</a>
+                        </div><!-- .swiper-slide -->
+
+                        <div class="swiper-slide">
+                            <a href="#">BEST</a>
+                        </div><!-- .swiper-slide -->
+
+                        <div class="swiper-slide">
+                            <a href="#">첫 구매 딜</a>
+                        </div><!-- .swiper-slide -->
+                        <div class="swiper-slide">
+                            <a href="#">리뷰</a>
+                        </div><!-- .swiper-slide -->
+
+                        <div class="swiper-slide">
+                            <a href="#">장원영 PICK</a>
+                        </div><!-- .swiper-slide -->
+
+                    </div><!-- .swiper-wrapper end -->
+                </div><!-- .menu_swiper end -->
+            </div><!-- .top_menu end -->
+        </header><!-- .header end -->
+
+        <main class="main">
+            <section class="main_visual">
+                <div class="inner">
+                    <a href="#"><img src="img/main_visual.jpg" alt="프로모션"></a>
+                    <div class="text_wrap">
+                        <span>8.29 - 9.4</span>
+                        <h2>AMUSE X MY MELODY & KUROMI<br />
+                            콜라보 한정 에디션 런칭</h2>
+                        <p><a href="#">리미티드 굿즈 받기</a></p>
+                    </div><!-- .text_wrap end -->
+                </div><!-- .inner end -->
+            </section><!-- .main_visual end -->
+
+            <section class="new">
+                <div class="title">
+                    <div class="inner">
+                        <h2>NEW
+                            <p>빛나는 어뮤즈 신상</p>
+                        </h2>
+                        <div class="more">
+                            <a href="#">
+                                더보기
+                                <img src="img/right.png" alt="더보기">
+                            </a>
+                        </div><!-- more end -->
+                    </div><!-- .title -->
+
+                    <!-- Swiper -->
+                    <div class="swiper new_swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/new-1.jpg" alt="">
+                                <div class="text_wrap">
+                                    <p>[마이멜로디&쿠로미 한정 에디션] 스파클 소다 립밤 (2종 택1)</p>
+                                    <span>19,000원</span>
+                                    <strong>15%
+                                        <span>16,100원</span>
+                                    </strong>
+                                </div><!-- text_wrap -->
+
+                                <div class="item_btn">
+                                    <a href="#"><img src="img/bag.png" alt=""></a>
+                                    <a href="#"><img src="img/heart.png" alt=""></a>
+                                </div><!-- item_btn end -->
+                            </div><!-- .swiper-slide end -->
+
+                            <div class="swiper-slide">
+                                <img src="img/new-2.jpg" alt="">
+                                <div class="text_wrap">
+                                    <p>[마이멜로디&쿠로미 한정 에디션] 파우더 벨벳 틴트 (2종 택1)</p>
+                                    <span>19,000원</span>
+                                    <strong>15%
+                                        <span>16,100원</span>
+                                    </strong>
+                                </div><!-- text_wrap -->
+
+                                <div class="item_btn">
+                                    <a href="#"><img src="img/bag.png" alt=""></a>
+                                    <a href="#"><img src="img/heart.png" alt=""></a>
+                                </div><!-- item_btn end -->
+                            </div><!-- .swiper-slide end -->
+
+                            <div class="swiper-slide">
+                                <img src="img/new-2.jpg" alt="">
+                                <div class="text_wrap">
+                                    <p>[마이멜로디&쿠로미 한정 에디션] 꽃 아이 팔레트</p>
+                                    <span>28,000원</span>
+                                    <strong>15%
+                                        <span>23,800원</span>
+                                    </strong>
+                                </div><!-- text_wrap -->
+
+                                <div class="item_btn">
+                                    <a href="#"><img src="img/bag.png" alt=""></a>
+                                    <a href="#"><img src="img/heart.png" alt=""></a>
+                                </div><!-- item_btn end -->
+                            </div><!-- .swiper-slide end -->
+
+                            <div class="swiper-slide">
+                                <img src="img/new-2.jpg" alt="">
+                                <div class="text_wrap">
+                                    <p>[마이멜로디&쿠로미 한정 에디션] 세라믹 스킨 퍼펙터 쿠션</p>
+                                    <span>38,000원</span>
+                                    <strong>30%
+                                        <span>26,600원</span>
+                                    </strong>
+                                </div><!-- text_wrap -->
+
+                                <div class="item_btn">
+                                    <a href="#"><img src="img/bag.png" alt=""></a>
+                                    <a href="#"><img src="img/heart.png" alt=""></a>
+                                </div><!-- item_btn end -->
+                            </div><!-- .swiper-slide end -->
+                        </div><!-- .swiper-wrapper end -->
+                    </div><!-- new_swiper end -->
+                </div><!-- .inner end -->
+            </section><!-- .new end -->
+        </main><!-- .main end -->
+    </div><!-- wrap -->
+</body>
+
+</html>
