@@ -12,16 +12,16 @@
         window.onload = () => {
             var swiper = new Swiper(".menu_swiper", {
                 slidesPerView: 6,
-                spaceBetween: 4,
+                spaceBetween: 10,
                 breakpoints: {
-                    400: {
+                    500: {
                         slidesPerView: 6,
-                        spaceBetween: 4,
+                        spaceBetween: 10,
                     },
                 },
             });
             var swiper = new Swiper(".new_swiper", {
-                slidesPerView: 1,
+                slidesPerView: 2,
                 spaceBetween: 10,
                 breakpoints: {
                     500: {
@@ -107,8 +107,8 @@
             </section><!-- .main_visual end -->
 
             <section class="new">
-                <div class="title">
-                    <div class="inner">
+                <div class="inner">
+                    <div class="title">
                         <h2>NEW
                             <p>빛나는 어뮤즈 신상</p>
                         </h2>
@@ -118,7 +118,7 @@
                                 <img src="img/right.png" alt="더보기">
                             </a>
                         </div><!-- more end -->
-                    </div><!-- .title -->
+                    </div><!-- .title end -->
 
                     <!-- Swiper -->
                     <div class="swiper new_swiper">
@@ -131,12 +131,13 @@
                                     <strong>15%
                                         <span>16,100원</span>
                                     </strong>
+
+                                    <div class="item_btn">
+                                        <a href="#"><img src="img/bag.png" alt=""></a>
+                                        <a href="#"><img src="img/heart.png" alt=""></a>
+                                    </div><!-- item_btn end -->
                                 </div><!-- text_wrap -->
 
-                                <div class="item_btn">
-                                    <a href="#"><img src="img/bag.png" alt=""></a>
-                                    <a href="#"><img src="img/heart.png" alt=""></a>
-                                </div><!-- item_btn end -->
                             </div><!-- .swiper-slide end -->
 
                             <div class="swiper-slide">
