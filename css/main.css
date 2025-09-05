@@ -221,8 +221,9 @@ body {
 }
 .new .inner .title .more {
     font-size: 14px;
-    display: flex;
-    gap: 3px;
+}
+.new .inner .title .more a{
+    display: block;
 }
 .new .inner .new_swiper{
     margin-top: 20px;
@@ -232,6 +233,7 @@ body {
 }
 .new .inner .new_swiper .swiper-slide{
     width: 48.69%;
+    position: relative;
 }
 .new .inner .new_swiper .swiper-slide > img{
     width: 100%;
@@ -256,4 +258,13 @@ body {
 .new .inner .new_swiper .swiper-slide .text_wrap strong span{
     font-size: 16px;
     font-weight: bold;
+}
+.new .inner .new_swiper .swiper-slide .item_btn{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
