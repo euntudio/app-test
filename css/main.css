@@ -289,9 +289,13 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
+    gap: 7px;
 }
 .new .inner .new_swiper .swiper-slide .item_btn a {
     display: block;
+}
+.new .inner .new_swiper .swiper-slide .item_btn a img{
+    width: 24px;
 }
 
 
@@ -315,7 +319,9 @@ body {
     font-size: 16px;
     font-weight: normal;
 }
-
+.best .inner .title .more {
+    font-size: 14px;
+}
 .best .inner .list {
     margin-top: 20px;
     display: flex;
@@ -353,4 +359,7 @@ body {
     align-items: center;
     justify-content: flex-end;
     gap: 7px;
+}
+.best .inner .list .item .info_wrap .item_wrap .text_wrap .item_btn a{
+    display: block;
 }
